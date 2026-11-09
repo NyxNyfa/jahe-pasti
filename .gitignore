@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js Build
+web/.next/
+web/out/
+web/dist/
+
+# Rust & Anchor Build Artifacts
+target/
+solana-program/target/
+solana-program/.anchor/
+*.so
+
+# Hardhat Build Artifacts
+contracts/cache/
+contracts/artifacts/
+contracts/typechain-types/
+
+# Environment Variables & Secret Keys (CRITICAL SECURITY)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+web/.env
+web/.env.local
+contracts/.env
+*.key
+*.pem
+id.json
+.solana-devnet-keypair.json
+web/.solana-devnet-keypair.json
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

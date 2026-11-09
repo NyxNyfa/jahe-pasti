@@ -1,0 +1,63 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  FARMER
+  COOPERATIVE
+  QC
+  ADMIN
+}
+
+enum BatchStatus {
+  Registered
+  Harvested
+  FieldVerified
+  UnderReview
+  LabApproved
+  Accepted
+  Rejected
+}
+
+model User {
+  id            String   @id @default(uuid())
+  nama          String
+  email         String   @unique
+  passwordHash  String
+  role          Role
+  walletAddress String?
+  createdAt     DateTime @default(now())
+}
+
+model Batch {
+  id                   String      @id
+  farmerId             String
+  farmerName           String
+  namaLahan            String
+  lat                  Float
+  lng                  Float
+  tanggalTanam         DateTime
+  tanggalPanen         DateTime?
+  beratKg              Float?
+  status               BatchStatus @default(Registered)
+  skor                 Float?
+  landDataHash         String
+  photosHash           String?
+  coaHash              String?
+  essentialOilContent  Float?
+  moistureContent      Float?
+  aiConfidence         Float?
+  defectRatio          Float?
+  approvedByFarmer     Boolean     @default(false)
+  approvedByCoop       Boolean     @default(false)
+  approvedByQc         Boolean     @default(false)
+  solanaSignaturesJson String?
+  rejectReason         String?
+  createdAt            DateTime    @default(now())
+  updatedAt            DateTime    @updatedAt
+}

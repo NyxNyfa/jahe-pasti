@@ -1,0 +1,26 @@
+{
+  "name": "jahepasti-contracts",
+  "version": "1.0.0",
+  "description": "Smart Contract Core for JahePasti Authenticity and Quality Verification System",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "seed:local": "hardhat run scripts/seed.ts --network localhost"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "hardhat",
+    "jahepasti"
+  ],
+  "author": "Daniyal Faridudin Nayf",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "hardhat": "^2.22.17",
+    "typescript": "^5.7.2"
+  }
+}

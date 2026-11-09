@@ -1,0 +1,223 @@
+[
+  {
+    "id": "BATCH-202611-9444",
+    "farmerId": "usr-farmer-01",
+    "farmerName": "Pak Sutrisno (Ketua Kelompok Tani Sambirata)",
+    "namaLahan": "Lahan Sambirata Blok G",
+    "lat": -7.3425,
+    "lng": 109.126,
+    "tanggalTanam": "2026-02-12T00:00:00.000Z",
+    "status": "Harvested",
+    "landDataHash": "0xa1851f4b72bffa0d8c885dcb9ab6ca15ab92b4078a6446d2645fd2011a485b26",
+    "approvedByFarmer": false,
+    "approvedByCoop": false,
+    "approvedByQc": false,
+    "solanaSignatures": [
+      {
+        "action": "REGISTER",
+        "signature": "32mtxSsxdapXp8Ujj8PzJLQ9L8FNm23gP5h2SCf94yvXbwp1MqdiYv6YTkia8zMMKkHfxe6yP5ezerQd8wfCxUQ3",
+        "solscanUrl": "https://solscan.io/tx/32mtxSsxdapXp8Ujj8PzJLQ9L8FNm23gP5h2SCf94yvXbwp1MqdiYv6YTkia8zMMKkHfxe6yP5ezerQd8wfCxUQ3?cluster=devnet",
+        "timestamp": "2026-11-09T14:58:10.355Z",
+        "hash": "0xa1851f4b72bffa0d8c885dcb9ab6ca15ab92b4078a6446d2645fd2011a485b26"
+      },
+      {
+        "action": "HARVEST",
+        "signature": "3MDzu9fXi57VKwfEe2VaFQmaaB64Bfa4xYgM1o5NWVDjBJbdBPFK7HAYgSVwfKbN6cnQiaaQM73m8iF567BirAB1",
+        "solscanUrl": "https://solscan.io/tx/3MDzu9fXi57VKwfEe2VaFQmaaB64Bfa4xYgM1o5NWVDjBJbdBPFK7HAYgSVwfKbN6cnQiaaQM73m8iF567BirAB1?cluster=devnet",
+        "timestamp": "2026-11-09T14:58:27.694Z",
+        "hash": "0xb675583d573024a84be01e5640bb6bee4dbf7352a8897f8d21cf821eb5a4a750"
+      }
+    ],
+    "createdAt": "2026-11-09T14:58:10.355Z",
+    "updatedAt": "2026-11-09T14:58:27.694Z",
+    "tanggalPanen": "2026-11-09T00:00:00.000Z",
+    "beratKg": 480,
+    "photosHash": "0xb675583d573024a84be01e5640bb6bee4dbf7352a8897f8d21cf821eb5a4a750"
+  },
+  {
+    "id": "BATCH-202611-9012",
+    "farmerId": "usr-farmer-01",
+    "farmerName": "Pak Sutrisno (Ketua Kelompok Tani Sambirata)",
+    "namaLahan": "Lahan Sambirata Blok C",
+    "lat": -7.3425,
+    "lng": 109.126,
+    "tanggalTanam": "2026-02-12T00:00:00.000Z",
+    "status": "Harvested",
+    "landDataHash": "0xbf9885f520d1f02ef877864363b2f10ec41cee1248bb019afa8f1036dd6d5c62",
+    "approvedByFarmer": false,
+    "approvedByCoop": false,
+    "approvedByQc": false,
+    "solanaSignatures": [
+      {
+        "action": "REGISTER",
+        "signature": "9KGCsr7vFsqUZURDfkbeTMFGh5bie5PihonyZKLeV1hmhJheAdSGmNVpCW4npgFSN894FAYxWdSJhTuKtx3d8mu",
+        "solscanUrl": "https://solscan.io/tx/9KGCsr7vFsqUZURDfkbeTMFGh5bie5PihonyZKLeV1hmhJheAdSGmNVpCW4npgFSN894FAYxWdSJhTuKtx3d8mu?cluster=devnet",
+        "timestamp": "2026-11-09T14:46:36.956Z",
+        "hash": "0xbf9885f520d1f02ef877864363b2f10ec41cee1248bb019afa8f1036dd6d5c62"
+      },
+      {
+        "action": "HARVEST",
+        "signature": "hFCfUHiZ7DhFGNzBtHRKXiq751eTYpEE2VqtfyLqKAwy6vf4S9ceCg6JyuZsnNUgypxary3KKvoXQLfNmYGCMCv",
+        "solscanUrl": "https://solscan.io/tx/hFCfUHiZ7DhFGNzBtHRKXiq751eTYpEE2VqtfyLqKAwy6vf4S9ceCg6JyuZsnNUgypxary3KKvoXQLfNmYGCMCv?cluster=devnet",
+        "timestamp": "2026-11-09T14:46:40.747Z",
+        "hash": "0x0a77720eeb6a0596286fcfefa3c14e9a59c49fefa401b4c3a227da565619a5f3"
+      }
+    ],
+    "createdAt": "2026-11-09T14:46:36.956Z",
+    "updatedAt": "2026-11-09T14:46:40.748Z",
+    "tanggalPanen": "2026-11-09T00:00:00.000Z",
+    "beratKg": 480,
+    "photosHash": "0x0a77720eeb6a0596286fcfefa3c14e9a59c49fefa401b4c3a227da565619a5f3"
+  },
+  {
+    "id": "BATCH-202611-5694",
+    "farmerId": "usr-farmer-01",
+    "farmerName": "Pak Sutrisno (Ketua Kelompok Tani Sambirata)",
+    "namaLahan": "Lahan Sambirata Blok C",
+    "lat": -7.3425,
+    "lng": 109.126,
+    "tanggalTanam": "2026-02-13T00:00:00.000Z",
+    "status": "LabApproved",
+    "landDataHash": "0x55b003d8fe6c9e9b1ffc1257ea7dc6101a4c4f091f967cd929048baba61be908",
+    "approvedByFarmer": false,
+    "approvedByCoop": false,
+    "approvedByQc": true,
+    "solanaSignatures": [
+      {
+        "action": "2OF3_ACCEPTANCE",
+        "signature": "2uJZJyGczuuSnjoiNstmk1uRK8VzFznyFc5q2D4GnXFWvzAe7Q4rh3hZ3iq8LXwg9koHT7k2uYkCgfJjsk8voGZG",
+        "solscanUrl": "https://solscan.io/tx/2uJZJyGczuuSnjoiNstmk1uRK8VzFznyFc5q2D4GnXFWvzAe7Q4rh3hZ3iq8LXwg9koHT7k2uYkCgfJjsk8voGZG?cluster=devnet",
+        "timestamp": "2026-11-09T14:43:43.486Z",
+        "hash": "0x55b003d8fe6c9e9b1ffc1257ea7dc6101a4c4f091f967cd929048baba61be908"
+      }
+    ],
+    "createdAt": "2026-11-09T14:38:25.850Z",
+    "updatedAt": "2026-11-09T14:39:46.796Z",
+    "tanggalPanen": "2026-11-09T00:00:00.000Z",
+    "beratKg": 480,
+    "photosHash": "0xd60a3e12c73eb3d32fab46c36b26cdc89cd984983c7eeac8b9d1ad9c3c25f527",
+    "moistureContent": 8.5,
+    "aiConfidence": 0.94,
+    "defectRatio": 0.015,
+    "essentialOilContent": 1.22,
+    "coaHash": "0x0a63c86a6449dc836e0d43ca44335da9cdaa456f5e9ba00879918bee83c112f0",
+    "skor": 88
+  },
+  {
+    "id": "BATCH-202611-8689",
+    "farmerId": "usr-farmer-01",
+    "farmerName": "Pak Sutrisno (Ketua Kelompok Tani Sambirata)",
+    "namaLahan": "Lahan Sambirata Blok C",
+    "lat": -7.3425,
+    "lng": 109.126,
+    "tanggalTanam": "2026-02-12T00:00:00.000Z",
+    "status": "Harvested",
+    "landDataHash": "0xbf9885f520d1f02ef877864363b2f10ec41cee1248bb019afa8f1036dd6d5c62",
+    "approvedByFarmer": false,
+    "approvedByCoop": false,
+    "approvedByQc": false,
+    "solanaSignatures": [
+      {
+        "action": "REGISTER",
+        "signature": "devnet_307862663938383566353230643166303265663837373836",
+        "solscanUrl": "https://solscan.io/tx/devnet_307862663938383566353230643166303265663837373836?cluster=devnet",
+        "timestamp": "2026-11-09T13:08:04.380Z",
+        "hash": "0xbf9885f520d1f02ef877864363b2f10ec41cee1248bb019afa8f1036dd6d5c62"
+      },
+      {
+        "action": "HARVEST",
+        "signature": "devnet_307866653363336662343832326635346334666234626531",
+        "solscanUrl": "https://solscan.io/tx/devnet_307866653363336662343832326635346334666234626531?cluster=devnet",
+        "timestamp": "2026-11-09T13:08:11.854Z",
+        "hash": "0xfe3c3fb4822f54c4fb4be1226382590abee9f0a94c892b80dc202966a38862ea"
+      }
+    ],
+    "createdAt": "2026-11-09T13:08:04.380Z",
+    "updatedAt": "2026-11-09T13:08:11.855Z",
+    "tanggalPanen": "2026-11-09T00:00:00.000Z",
+    "beratKg": 480,
+    "photosHash": "0xfe3c3fb4822f54c4fb4be1226382590abee9f0a94c892b80dc202966a38862ea"
+  },
+  {
+    "id": "BATCH-SAMBIRATA-001",
+    "farmerId": "usr-farmer-01",
+    "farmerName": "Pak Sutrisno",
+    "namaLahan": "Blok A Lereng Gunung Slamet, Desa Sambirata",
+    "lat": -7.3412,
+    "lng": 109.1245,
+    "tanggalTanam": "2026-02-12T13:07:14.205Z",
+    "tanggalPanen": "2026-11-04T13:07:14.205Z",
+    "beratKg": 500,
+    "status": "Accepted",
+    "skor": 88.5,
+    "landDataHash": "0x4a7e93f8d1c0b2e5a6f4e8d2c1b9a7f3e5d8c2b1a9f7e5d3c1b8a6f4e2d0c8b6",
+    "photosHash": "0x8f2d5e1b4a7c0e9f3d6b2a8c5e1f4a7d0c3b6e9f2a5d8c1e4b7a0f3d6c9e2b5a",
+    "coaHash": "0x1c3e5a7b9d0f2a4c6e8b0d2f4a6c8e0b2d4f6a8c0e2b4d6f8a0c2e4b6d8f0a2c",
+    "essentialOilContent": 1.25,
+    "moistureContent": 8.6,
+    "aiConfidence": 0.952,
+    "defectRatio": 0.015,
+    "approvedByFarmer": true,
+    "approvedByCoop": false,
+    "approvedByQc": true,
+    "solanaSignatures": [
+      {
+        "action": "REGISTER",
+        "signature": "5Uf9Jz8...SolanaRegisterTx",
+        "solscanUrl": "https://solscan.io?cluster=devnet",
+        "timestamp": "2026-02-12T13:07:14.205Z",
+        "hash": "0x4a7e93f8d1c0b2e5a6f4e8d2c1b9a7f3e5d8c2b1a9f7e5d3c1b8a6f4e2d0c8b6"
+      },
+      {
+        "action": "HARVEST",
+        "signature": "3Kp7Yv1...SolanaHarvestTx",
+        "solscanUrl": "https://solscan.io?cluster=devnet",
+        "timestamp": "2026-11-04T13:07:14.205Z",
+        "hash": "0x8f2d5e1b4a7c0e9f3d6b2a8c5e1f4a7d0c3b6e9f2a5d8c1e4b7a0f3d6c9e2b5a"
+      },
+      {
+        "action": "FIELD_INSPECT",
+        "signature": "7Nm4Px2...SolanaInspectTx",
+        "solscanUrl": "https://solscan.io?cluster=devnet",
+        "timestamp": "2026-11-06T13:07:14.205Z",
+        "hash": "0xFieldVerifiedInspectionHash860Moisture"
+      },
+      {
+        "action": "LAB_QC",
+        "signature": "9Rt2Qw5...SolanaLabQcTx",
+        "solscanUrl": "https://solscan.io?cluster=devnet",
+        "timestamp": "2026-11-07T13:07:14.205Z",
+        "hash": "0x1c3e5a7b9d0f2a4c6e8b0d2f4a6c8e0b2d4f6a8c0e2b4d6f8a0c2e4b6d8f0a2c"
+      },
+      {
+        "action": "2OF3_ACCEPTANCE",
+        "signature": "2Vx8Lm9...SolanaAcceptedTx",
+        "solscanUrl": "https://solscan.io?cluster=devnet",
+        "timestamp": "2026-11-08T13:07:14.205Z",
+        "hash": "0xAcceptedConsensus2of3QCAndFarmer"
+      }
+    ],
+    "createdAt": "2026-02-12T13:07:14.205Z",
+    "updatedAt": "2026-11-08T13:07:14.205Z"
+  },
+  {
+    "id": "BATCH-SAMBIRATA-002",
+    "farmerId": "usr-farmer-01",
+    "farmerName": "Pak Sutrisno",
+    "namaLahan": "Blok B Sambirata Dataran Tinggi",
+    "lat": -7.345,
+    "lng": 109.129,
+    "tanggalTanam": "2026-02-02T13:07:14.205Z",
+    "tanggalPanen": "2026-11-07T13:07:14.205Z",
+    "beratKg": 350,
+    "status": "Harvested",
+    "landDataHash": "0x7b2a9e4d1f8c0b3e6a9f5e2d8c4b1a7f0e3d6c9b2a5f8e1d4c7b0a3f6e9d2c5b",
+    "photosHash": "0x3e6a9f2d5c8b1e4a7d0c3f6b9e2a5d8c1f4b7e0a3d6c9f2b5e8a1d4c7b0e3f6a",
+    "approvedByFarmer": false,
+    "approvedByCoop": false,
+    "approvedByQc": false,
+    "solanaSignatures": [],
+    "createdAt": "2026-02-02T13:07:14.205Z",
+    "updatedAt": "2026-11-07T13:07:14.205Z"
+  }
+]
